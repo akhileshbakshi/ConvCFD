@@ -23,7 +23,7 @@ import module_dataPipeline as dataPip
 # data aggregation 
 dataDirectory = 'simulation_data_sample'# folder with simulation files 
 fileprefix = 'time'                     # filenames: fileprefix+<file #>+'.txt' 
-timeStampsAvailable = 500               # total timeframes inside dataDirectory
+timeStampsAvailable = 100               # total timeframes inside dataDirectory
 fractionTrainCVTest = [0.9, 0.0, 0.1]   # fraction split into train, CV and test
                 
 # input-output 
